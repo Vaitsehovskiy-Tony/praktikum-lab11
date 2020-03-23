@@ -1,0 +1,16 @@
+.image-focus__img-container {
+    position: absolute;
+    display: flex;
+    /* margin:auto auto; */
+    max-width: 80vw;
+    max-height: 80vh;
+    align-items: center;
+    justify-content: center; 
+    z-index: 1;
+    /* background: url(https://pictures.s3.yandex.net/frontend-developer/cards-compressed/khrebet-nurgush.jpg); */
+    margin: 0;
+    padding: 0;
+
+
+    
+}
