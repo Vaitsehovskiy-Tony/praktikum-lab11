@@ -10,7 +10,9 @@ module.exports = {
     filename: '[name].[chunkhash].js'
   },
   module: {
+
     rules: [
+
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -18,9 +20,26 @@ module.exports = {
           loader: "babel-loader"
         }
       },
+
       {
         test: /\.css$/,
         use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] // добавили минификацию CSS
+      },
+      
+      {
+        test: /\.(png|jpg|gif|ico|svg)$/,
+        use: [
+                'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
+                {
+                        loader: 'image-webpack-loader',
+                        options: {}
+                },
+        ]
+      },
+
+      {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
       }
     ]
   },

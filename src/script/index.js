@@ -5,7 +5,7 @@ import {Popup} from './Popup';
 import {Focus} from './Focus';
 import {FormValidator} from './FormValidator';
 import {UserInfo} from './UserInfo';
-import "./style.css";
+import "../pages/index.css";
 
 'use strict';
 
