@@ -14,7 +14,7 @@ export class Api {
   getInitialCards() {
     //  Надо исправить: Необходимо вынести такие параметры как IP адрес за класс и передавать 
     // в качестве параметра при инициализации класса
-    return fetch(`https://${this.link.ip}/${this.link.groupId}/cards`, {
+    return fetch(`https://praktikum.tk/${this.link.groupId}/cards`, {
       headers: {
         authorization: this.link.authoriz
       }
@@ -36,7 +36,7 @@ export class Api {
 
     //  Надо исправить: Необходимо вынести такие параметры как IP адрес за класс и передавать 
     // в качестве параметра при инициализации класса 
-    return fetch(`https://${this.link.ip}/${this.link.groupId}/users/me`, {
+    return fetch(`https://praktikum.tk/${this.link.groupId}/users/me`, {
       headers: {
         authorization: this.link.authoriz
       }
@@ -57,8 +57,8 @@ export class Api {
   sendUserInfo() {
 
     //  Надо исправить: Необходимо вынести такие параметры как IP адрес за класс и передавать 
-    // в качестве параметра при инициализации класса 
-    return fetch(`https://${this.link.ip}/${this.link.groupId}/users/me`, {
+    // в качестве параметра при инициализации класса ${this.link.ip}
+    return fetch(`https://praktikum.tk/${this.link.groupId}/users/me`, {
       method: 'PATCH',
       headers: {
         authorization: this.link.authoriz,
