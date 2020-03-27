@@ -1,4 +1,4 @@
-'use strict';
+import {errors} from './index';
 
 export class FormValidator {
 

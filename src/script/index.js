@@ -1,13 +1,15 @@
+import "../pages/index.css";
+
+
 import {Api} from './Api';
 import {Card} from './Card';
 import {CardList} from './CardList';
 import {Popup} from './Popup';
 import {Focus} from './Focus';
-import {FormValidator} from './FormValidator';
 import {UserInfo} from './UserInfo';
-import "../pages/index.css";
+import {FormValidator} from './FormValidator';
 
-'use strict';
+
 
 // объявление глобальных переменных
 
@@ -18,7 +20,7 @@ const popups = {
   popupUser
 };
 const form = document.forms.new;
-const userForm = document.forms.edit;
+export const userForm = document.forms.edit;
 const popupClose = document.querySelector('.popup__close');
 const popupUserClose = document.querySelector('.popup__close-user');
 const addPlaceButton = document.querySelector('.user-info__button');
@@ -41,7 +43,7 @@ const link = {
   authoriz
 }
 const focusBlock = document.querySelector('.focus-block');
-const errors = {
+export const errors = {
   validationEmpty: 'Это обязательное поле',
   validationLength: 'Должно быть от 2 до 30 символов',
   validationURL: 'Здесь должна быть ссылка'

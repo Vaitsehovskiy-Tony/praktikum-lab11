@@ -1,5 +1,7 @@
 'use strict';
 
+import {Api} from './Api';
+
 export class CardList {
 
   constructor(element, container, card, api) {

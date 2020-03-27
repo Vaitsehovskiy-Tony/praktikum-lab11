@@ -6,7 +6,6 @@ export class Api {
 
     this.userForm = userForm;
     this.link = link;
-    this.authoriz = authoriz;
 
   }
 

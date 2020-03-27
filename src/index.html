@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mesto</title>
-  <link rel="stylesheet" href="./pages/<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
   <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
@@ -27,6 +27,7 @@
     <div class="places-list root__section">
     </div>
 
+
     <div class="popup">
       <div class="popup__content">
         <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
@@ -43,7 +44,7 @@
 
     <div class="popup__user">
       <div class="popup__content">
-        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup__close-user">
+        <img src="./images/close.svg" alt="" class="popup__close popup__close-user">
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form" novalidate name="edit">
 
