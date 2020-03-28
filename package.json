@@ -1,8 +1,8 @@
 {
-  "name": "praktikum",
+  "name": "praktikum-lab11",
   "homepage": "http://github.com/Vaitsehovskiy-Tony/praktikum-lab11.git",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "learning webpack",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.8.6",
     "autoprefixer": "^9.7.4",
     "babel-loader": "^8.0.6",
+    "browserslist": "^4.11.0",
     "cross-env": "^7.0.2",
     "css-loader": "^3.4.2",
     "cssnano": "^4.1.10",
@@ -35,6 +36,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "core-js": "^3.4.1"
+    "core-js": "^3.4.1",
+    "fontfaceobserver": "^2.1.0"
   }
 }
