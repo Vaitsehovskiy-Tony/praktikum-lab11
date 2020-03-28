@@ -1,7 +1,7 @@
 # praktikum-lab11
 ____
 
-[Проект]: https://vaitsehovskiy-tony.github.io/praktikum-lab11/
+## Проект: https://vaitsehovskiy-tony.github.io/praktikum-lab11/
 
 ## v0.0.2
 
