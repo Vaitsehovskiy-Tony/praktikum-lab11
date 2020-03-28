@@ -3,23 +3,24 @@ ____
 
 [Проект:](https://vaitsehovskiy-tony.github.io/praktikum-lab11/)
 
+<<<<<<< HEAD
 ## v0.0.2
-
 
 
 ## Практическая работа по использованию модулей и webpack
 
 ## Проект для тренировки работы с webpack, package.json, babel и других библиотек. Также практика в использовании модулей.
 
+<<<<<<< HEAD
 ### Production-сборка осуществляется командой npm run build
 ### Development-сборка собирается командой npm run dev по адресу [localhost](http://localhost:8080/)
 
-### В проекте использованны JS, CSS, HTML, GIT, WEBPACK
 
 ___
 
 
 Полный список подключенных библиотек
+<<<<<<< HEAD
   
 "devDependencies": {  
 
