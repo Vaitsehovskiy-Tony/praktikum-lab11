@@ -1,0 +1,8 @@
+.image-focus__close {
+    width: 26px;
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    cursor: pointer;
+  }
+  

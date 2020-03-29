@@ -1,0 +1,25 @@
+.user-info__edit {
+    height: 19px;
+    width: 38px;
+    border: 1px solid #ffffff;
+
+    font-size: 12px;
+    line-height: 15px;
+    background-color: transparent;
+    color: #ffffff;
+
+}
+
+.user-info__edit:hover {
+
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+.user-info__edit:active {
+    color: #000;
+    background-color: rgb(62, 133, 214);
+    border: 1px solid rgb(62, 133, 214);
+
+}
