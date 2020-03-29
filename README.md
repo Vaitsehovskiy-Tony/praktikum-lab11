@@ -3,7 +3,7 @@ ____
 
 ## Проект: https://vaitsehovskiy-tony.github.io/praktikum-lab11/
 
-## v0.0.2
+## v0.0.3
 
 
 ## Практическая работа по использованию модулей и webpack

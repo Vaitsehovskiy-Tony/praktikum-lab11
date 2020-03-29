@@ -1,7 +1,7 @@
 {
   "name": "praktikum-lab11",
   "homepage": "http://github.com/Vaitsehovskiy-Tony/praktikum-lab11.git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "learning webpack",
   "main": "index.js",
   "scripts": {

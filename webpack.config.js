@@ -9,9 +9,9 @@ const isDev = process.env.NODE_ENV === 'development';
 // создаем переменную для development-сборки
 
 
-new webpack.DefinePlugin({
-  'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-});
+// new webpack.DefinePlugin({
+//   'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+// });
 
 
 module.exports = {
@@ -88,6 +88,10 @@ module.exports = {
     }),
 
     new WebpackMd5Hash(),
+
+    new webpack.DefinePlugin({
+      'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+  })
 
   ]
 };
