@@ -1,17 +1,19 @@
-# praktikum-lab11
+## praktikum-lab11
 ____
 
-## Проект: https://vaitsehovskiy-tony.github.io/praktikum-lab11/
+### Проект: https://vaitsehovskiy-tony.github.io/praktikum-lab11/
 
-## v0.0.3
+### v0.0.3
+
+###Стек технологий: Webpack, JavaScript, Git, CSS, HTML
 
 
-## Практическая работа по использованию модулей и webpack
+### Практическая работа по использованию модулей и webpack
 
-## Проект для тренировки работы с webpack, package.json, babel и других библиотек. Также практика в использовании модулей.
+### Проект для тренировки работы с webpack, package.json, babel и других библиотек. Также практика в использовании модулей.
 
-### Production-сборка осуществляется командой npm run build
-### Development-сборка собирается командой npm run dev по адресу [localhost](http://localhost:8080/)
+#### Production-сборка осуществляется командой npm run build
+#### Development-сборка собирается командой npm run dev по адресу [localhost](http://localhost:8080/)
 
 
 ___
