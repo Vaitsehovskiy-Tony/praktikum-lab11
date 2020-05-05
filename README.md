@@ -5,7 +5,7 @@ ____
 
 ### v0.0.3
 
-###Стек технологий: Webpack, JavaScript, Git, CSS, HTML
+### Стек технологий: Webpack, JavaScript, Git, CSS, HTML
 
 
 ### Практическая работа по использованию модулей и webpack
