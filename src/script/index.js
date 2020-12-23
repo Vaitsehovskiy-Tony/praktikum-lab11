@@ -34,7 +34,7 @@ const inputUser = userForm.user;
 const inputInterests = userForm.interests;
 const inputName = form.name;
 const inputLink = form.link;
-const ip = NODE_ENV === 'development' ? 'http://nomoreparties.co/' : 'https://nomoreparties.co/';
+const ip = NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk';
 const groupId = 'cohort7';
 const authoriz = '18709e85-c197-4083-8e6e-7400479c7833';
 const link = {

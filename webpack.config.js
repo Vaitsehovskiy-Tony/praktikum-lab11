@@ -9,6 +9,11 @@ const isDev = process.env.NODE_ENV === 'development';
 // создаем переменную для development-сборки
 
 
+// new webpack.DefinePlugin({
+//   'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+// });
+
+
 module.exports = {
   entry: { main: './src/script/index.js' },
   output: {
@@ -44,8 +49,8 @@ module.exports = {
             // чтобы картинки грузились можно так, либо добавить .default в html
             loader: 'file-loader',
             options: {
-              name: './images/[name].[ext]',
-              esModule: false
+                name: './images/[name].[ext]',
+                esModule: false
             },
           },
 
@@ -61,7 +66,7 @@ module.exports = {
         loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
       }
     ]
-  },
+  }, 
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'style.[contenthash].css',
@@ -86,7 +91,7 @@ module.exports = {
 
     new webpack.DefinePlugin({
       'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-    })
+  })
 
   ]
 };
